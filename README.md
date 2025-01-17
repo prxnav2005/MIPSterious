@@ -2,8 +2,6 @@
 
 
 ```
-├── README.md
-├── LICENSE
 ├── design/ # Processor design files
 │ ├── ALU.sv
 │ ├── ControlUnit.sv
