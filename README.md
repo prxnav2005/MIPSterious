@@ -2,16 +2,16 @@
 
 
 ```
-├── design/ # Processor design files
+├── src/ # Processor design files
 │ ├── ALU.sv
 │ ├── ControlUnit.sv
 │ ├── DataPath.sv
 │ └── ...
-├── testbench/ # Testbench files
+├── tb/ # Testbench files
 │ ├── ALU_tb.sv
 │ ├── ControlUnit_tb.sv
 │ └── ...
-├── assembly/ # Assembly test programs
+├── asm/ # Assembly test programs
 │ ├── add_test.asm
 │ ├── branch_test.asm
 │ └── ...
