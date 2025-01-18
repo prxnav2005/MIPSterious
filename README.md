@@ -1,5 +1,6 @@
 # MIPS-Processor-Design
 
+### File structure
 
 ```
 ├── src/ # Processor design files
@@ -24,3 +25,23 @@
 ├── pipeline_explanation.md
 └── ...
 ```
+
+## Processor Design
+
+### Single Cycle MIPS Processor
+![Single Cycle MIPS Processor](docs/images/single_cycle.png)
+
+- ALU Encoding table
+
+| **ALUop** | **Meaning**     |
+|-----------|-----------------|
+| 00        | add             |
+| 01        | subtract        |
+| 10        | look at funct field |
+| 11        | n/a             |
+
+--- 
+
+### Single Cycle MIPS Processor extended to support j instructions
+
+![Single Cycle supporting j instruction](docs/images/single_cycle_j.png)
