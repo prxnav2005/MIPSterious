@@ -1,0 +1,57 @@
+# General
+.DS_Store
+Thumbs.db
+
+# SystemVerilog compilation artifacts
+*.log
+*.jou
+*.pb
+*.wdb
+*.rpt
+*.vcd
+*.out
+*.vcd
+*.dat
+
+# Python-related (for scripts in tools/)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.coverage
+.coverage.*
+
+# Assembly test programs
+*.bin
+*.hex
+
+# Waveform viewer and simulation files
+*.lxt
+*.vpd
+*.fsdb
+*.fst
+waveform_viewer_settings.json
+
+# IDE-specific files (e.g., Vivado, ModelSim, etc.)
+*.xpr
+*.sim/
+*.ip_user_files/
+*.cache/
+*.hw/
+*.hdf/
+*.log
+*.tcl
+*.backup
+*.mrf
+
+# Temporary and backup files
+*~
+*.swp
+*.bak
+*.tmp
+*.temp
+
+# Output directories for build processes
+build/
+output/
