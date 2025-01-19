@@ -41,7 +41,20 @@
 | 11        | n/a             |
 
 --- 
+### Timing diagram between Single cycle and Pipelined Processor
 
-### Single Cycle MIPS Processor extended to support j instructions
+![Timing diagram](docs/images/timing_diagram.png)
 
-![Single Cycle supporting j instruction](docs/images/single_cycle_j.png)
+---
+
+### Pipeline operation
+
+![Pipeline operation](docs/images/pipeline_operation.png)
+
+---
+
+### Pipelined processor block diagram
+
+![Full pipelined processor](docs/images/fully_pipelined.png)
+
+
