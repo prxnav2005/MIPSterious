@@ -13,15 +13,9 @@
 │ ├── ControlUnit_tb.sv
 │ └── ...
 ├── asm/ # Assembly test programs
-│ ├── add_test.asm
-│ ├── branch_test.asm
-│ └── ...
-├── tools/ # Utility scripts or tools
-│ ├── assembler.py
-│ ├── waveform_viewer_settings.json
-│ └── ...
+│ ├── mips_test.asm
 └── docs/ # Documentation
-├── architecture_diagram.png
+├── images
 ├── pipeline_explanation.md
 └── ...
 ```
